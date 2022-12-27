@@ -1,8 +1,0 @@
-MediaPlayer mediaPlayer = new MediaPlayer();
-
-try {
-  mediaPlayer.setDataSource("/path/to/file.mp3");
-  mediaPlayer.prepare();
-} catch (IOException e) {
-  Log.e(TAG, "Error loading MP3 file", e);
-}
