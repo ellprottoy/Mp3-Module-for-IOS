@@ -1,0 +1,7 @@
+Button playButton = findViewById(R.id.play_button);
+playButton.setOnClickListener(new View.OnClickListener() {
+  @Override
+  public void onClick(View v) {
+    mediaPlayer.start();
+  }
+});
